@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Euclid Circular A - Medium";
+  src: url(./Fonts/Euclid\ Circular\ A\ Medium.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Euclid Circular A - Regular";
+  src: url(./Fonts/Euclid\ Circular\ A\ Regular.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(./Fonts/Proxima\ Nova\ Font.otf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  overflow-x: hidden;
+  background: #f5faff;
+  color: #161C26;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #161c26;
+}
+
+a:hover {
+  color: #000;
+}
+
+.ico {
+  color: #49a05c;
 }

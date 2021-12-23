@@ -1,0 +1,148 @@
+nav {
+  padding: 20px 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.navLinks a {
+  font-family: "Euclid Circular A - Medium";
+  margin-left: 38px;
+  font-size: 1.03em;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: #49a05c;
+}
+
+.navLinks a:first-child {
+  margin-left: 0;
+}
+
+.navLinks a:nth-child(3) {
+  border: 1px solid #00b600;
+  padding: 10px 21px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  -moz-transition: background-color 0.3s, color 0.3s;
+  -ms-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
+}
+
+.navLinks a:nth-child(3):hover {
+  background-color: #00b600;
+  color: #fff;
+}
+
+.userNameLink {
+  display: inline-flex;
+  align-items: center;
+}
+
+.userNameLink p {
+  margin-bottom: 0;
+}
+
+.userNameIco {
+  background-color: #dcfce8;
+  padding: 10px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.arrowIcoNav {
+  color: #49a05c;
+  font-size: 2.3em;
+}
+
+.menuIco {
+  width: 2em;
+  display: none;
+}
+@media (max-width: 2000px) {
+  nav {
+    padding: 20px 250px;
+  }
+}
+
+@media (max-width: 1770px) {
+  nav {
+    padding: 20px 150px;
+  }
+}
+
+@media (max-width: 1580px) {
+  nav {
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 1300px) {
+  nav {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 1190px) {
+  nav {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  nav {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navLinks {
+    display: none;
+  }
+
+  .menuIco {
+    display: block;
+  }
+  
+  nav {
+    padding: 20px 100px;
+  }
+}
+
+@media (max-width: 677px) {
+  nav {
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 577px) {
+  nav {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 484px) {
+  nav {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  nav {
+    padding: 20px 10px;
+  }
+}

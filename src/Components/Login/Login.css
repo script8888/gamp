@@ -1,0 +1,188 @@
+section.loginSec {
+  display: flex;
+  height: 100vh;
+  padding: 0 330px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logiInputs--Parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loginInputs {
+  border: 0.5px solid #858585;
+  padding: 19px 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.loginInputs img {
+  margin-bottom: 20px;
+}
+
+.input {
+  border: 0.5px solid #858585;
+  border-radius: 10px;
+  padding: 16px 0 16px 19px;
+  outline: none;
+}
+
+.loginInput-exact {
+  width: 28em;
+  margin-bottom: 13px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.loginInput-exact::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  color: #858585;
+  font-size: 0.85em;
+}
+
+.btnLogin {
+  background-color: #49a05c;
+  color: #fff;
+  padding: 10px 0;
+  width: 28em;
+  margin-top: 13px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btnLogin:hover {
+  color: #fff;
+}
+
+.forgotP {
+  color: #12172e;
+  font-size: 0.9em;
+  margin: 34px 0;
+  font-family: "Euclid Circular A - Medium", sans-serif;
+}
+
+.loginCRight-mob {
+  display: none;
+}
+
+.loginCRight {
+  text-align: center;
+  margin-top: 27px;
+  color: #858585;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.phoneImg-sec img {
+  margin-top: -9.4em;
+  margin-left: 6em;
+}
+
+/* QUERIES */
+@media (max-width: 1300px) {
+  .phoneImg-sec img {
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 1180px) {
+  .loginInput-exact,
+  .btnLogin {
+    width: 25em;
+  }
+
+  .loginInputs {
+    padding: 19px 43px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .phoneImg-sec img {
+    display: none;
+  }
+
+  .loginInput-exact,
+  .btnLogin {
+    width: 26em;
+  }
+}
+
+@media (max-width: 650px) {
+  section.loginSec {
+    padding: 0 33px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 560px) {
+  .loginInputs {
+    padding: 19px 25px;
+  }
+
+  .btnLogin {
+    width: 14em;
+  }
+
+  .loginCRight {
+    display: none;
+  }
+
+  .loginCRight-mob {
+    display: block;
+    margin-top: 0;
+  }
+
+  .forgotP {
+    margin: 24px 0;
+  }
+}
+
+@media (max-width: 486px) {
+  .loginInputs {
+    padding: 19px 25px;
+  }
+
+  .loginInput-exact {
+    width: 21em;
+  }
+}
+
+@media (max-width: 399px) {
+  .loginInput-exact {
+    width: 17em;
+  }
+}
+
+@media (max-width: 329px) {
+  .loginInputs {
+    padding: 19px 13px;
+  }
+
+  .loginInput-exact {
+    width: 15em;
+  }
+
+  .btnLogin {
+    width: 9em;
+  }
+}
+
+@media (max-height: 720px) {
+  .phoneImg-sec img {
+    margin-top: -1.4em;
+  }
+}
